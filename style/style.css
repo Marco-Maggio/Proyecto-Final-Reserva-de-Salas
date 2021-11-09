@@ -1,0 +1,45 @@
+body{
+    background-image: url(/img/fondoIMG.png);
+    background-image: no-repeat;
+    background-size: cover;
+}
+
+.contenedorLogin{
+    background-color: #fff;
+    width: 400px;
+    height: 300px;
+    border-radius: 35px;
+    margin: 150px auto;
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    align-items: center;
+ 
+}
+
+h1{
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.titulo{
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+input{
+    border-radius: 30px;
+    width: 200px;
+    height: 25px;
+    border: 1px solid #A5A5A5;
+    padding-left: 15px;
+}
+
+.contenido{
+    margin-top: 25px;
+}
+
+.active{
+    border-color: green;
+}
